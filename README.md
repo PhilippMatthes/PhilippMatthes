@@ -1,2 +1,2 @@
 # GitHub visits for my profile
-![](https://snrmtths.uber.space/history/chart/)
+<img src="https://snrmtths.uber.space/history/chart/" alt="visits" />
