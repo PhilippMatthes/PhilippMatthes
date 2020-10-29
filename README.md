@@ -18,13 +18,12 @@ Here is a selection of some projects I worked on, sorted by their topics:
 
 ### Neural Greenscreen 
 
-<img align="center" width="800" src="https://github.com/PhilippMatthes/neural-greenscreen/raw/master/demo.png">
-
-With the SARS-CoV-2 situation, video conferencing systems like Zoom became daily business. At TU Dresden, we often use BBB, which doesn't have a privacy feature to replace your background. So I wrote a plugin for my MacBook, which takes the input stream of the camera, separates the background, replaces it in real time with an image and outputs a stream to the CoreMediaIO DAL plugin interface of Mac OS. This way, I can use the plugin as a camera device for BBB and replace my background just like in Zoom. For the camera stream segmentation, the plugin uses a locally running Node.js service, which drives a pretrained BodyPix neural network via Tensorflow.js and makes the image segmentation available over a local REST interface. The camera stream is sent to this service, which returns a bitmask for where to apply background replacement. Another challenge I faced, was that this local service needs to be deployed with its own locally-signed SSL certificate, otherwise the plugin would need `NSAllowArbitraryLoads`, which potentially creates an attack surface. Additionally, energy impact was also a great challenge, which I could improve by monitoring the changes in the camera stream and updating the bitmask adaptively, depending on the user's movements.
-
 <a href="https://github.com/PhilippMatthes/neural-greenscreen">
+  <img align="center" src="https://github.com/PhilippMatthes/neural-greenscreen/raw/master/demo.png">
   <img align="center" src="https://github-readme-stats.philippmatthes.vercel.app/api/pin/?username=PhilippMatthes&repo=neural-greenscreen&show_owner=true&title_color=20bf6b&icon_color=20bf6b&text_color=0b0b0b&bg_color=fefefe" />
 </a>
+
+With the SARS-CoV-2 situation, video conferencing systems like Zoom became daily business. At TU Dresden, we often use BBB, which doesn't have a privacy feature to replace your background. So I wrote a plugin for my MacBook, which takes the input stream of the camera, separates the background, replaces it in real time with an image and outputs a stream to the CoreMediaIO DAL plugin interface of Mac OS. This way, I can use the plugin as a camera device for BBB and replace my background just like in Zoom. For the camera stream segmentation, the plugin uses a locally running Node.js service, which drives a pretrained BodyPix neural network via Tensorflow.js and makes the image segmentation available over a local REST interface. The camera stream is sent to this service, which returns a bitmask for where to apply background replacement. Another challenge I faced, was that this local service needs to be deployed with its own locally-signed SSL certificate, otherwise the plugin would need `NSAllowArbitraryLoads`, which potentially creates an attack surface. Additionally, energy impact was also a great challenge, which I could improve by monitoring the changes in the camera stream and updating the bitmask adaptively, depending on the user's movements.
 
 ### YOLOCam
 
