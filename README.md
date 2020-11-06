@@ -10,7 +10,19 @@ I like 🏸 badminton, 🏂 snowboarding, 🚴 cycling and 🏋 any other kind o
 - Ubiquitous IOT Applications and Mobile Computing
 - Educational Software and Teaching
 
-# Profile visits 📈
+# Weblinks
+
+- [Twitter](https://twitter.com/snrmtths)
+- [Instagram](https://instagram.com/snrmtths)
+- [Blog](https://xn--53hy230o.ws/)
+- [Homepage](https://philippmatth.es/)
+- [E-Learning](https://fragenautom.at/)
+
+# Featured Projects
+
+![3Dify-App](images/3dify-app.webp)
+
+# Profile Visits 📈
 
 <a href="https://github.com/PhilippMatthes/PhilippMatthes">
   <kbd>
