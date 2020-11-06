@@ -18,9 +18,11 @@ I like 🏸 badminton, 🏂 snowboarding, 🚴 cycling and 🏋 any other kind o
 - [Homepage](https://philippmatth.es/)
 - [E-Learning](https://fragenautom.at/)
 
-# Featured Projects
+# Featured Project
 
-![3Dify-App](images/3dify-app.webp)
+<a href="https://github.com/3dify-app">![3Dify-App](images/3dify-app.webp)</a>
+
+The 3Dify iOS app uses algorithms from computer vision and machine learning to generate depth maps for photos. With these depth maps, it creates a unique 3-dimensional parallax effect with the parallax occlusion mapping shading technique.
 
 # Profile Visits 📈
 
