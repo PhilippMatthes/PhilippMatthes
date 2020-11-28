@@ -20,9 +20,11 @@ I like 🏸 badminton, 🏂 snowboarding, 🚴 cycling and 🏋 any other kind o
 
 # Featured Project
 
-<a href="https://github.com/3dify-app">![3Dify-App](images/3dify-app.webp)</a>
-
 The 3Dify iOS app uses algorithms from computer vision and machine learning to generate depth maps for photos. With these depth maps, it creates a unique 3-dimensional parallax effect with the parallax occlusion mapping shading technique.
+
+<a href="https://github.com/3dify-app">![3Dify-App](images/thumbnail.webp)</a>
+
+In the past days I started with a reiteration of the 3Dify app. Inspired by the work of Wei Liu et al. I implemented a postprocessing filter for the FCRN model. It uses bilateral filtering to smooth out the depth map while preserving original edges. [Read my blog entry (Link)](https://xn--53hy230o.ws/entries/3dify-filtering/)
 
 # Profile Visits 📈
 
