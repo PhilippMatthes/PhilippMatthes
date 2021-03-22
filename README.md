@@ -8,7 +8,9 @@
 - Cloud computing and engineering web applications → [MDR Koalitionspoker](https://www.mdr.de/sachsen/politik/wahlen/landtagswahl/koalitionspoker-sachsen-erklaerung-100.html), [☕️💻.ws](https://github.com/coffee-code-ws), [philippmatth.es](https://philippmatth.es/), [ordered.online](https://github.com/ordered-online)
 - Educational software and teaching → [INLOOP](https://github.com/st-tu-dresden/inloop), [fragenautom.at](https://github.com/fragenautomat)
 
-# Profile Visits 📈
+---
+
+#### Profile Visits 📈
 
 <a href="https://github.com/PhilippMatthes/PhilippMatthes">
   <kbd>
