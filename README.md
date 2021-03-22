@@ -1,39 +1,12 @@
-# Hi there 👋
+[Homepage](https://philippmatth.es/) | [Twitter](https://twitter.com/snrmtths) | [Instagram](https://instagram.com/snrmtths) | [Blog](https://xn--53hy230o.ws/) | [E-Learning](https://fragenautom.at/)
 
-Hey, how is it going? My name is Philipp. Let me tell you something about myself. ✌ I study Computer Science at TU Dresden (on Diploma, currently in the 9th semester). I work at TU Dresden as a developer and tutor since April 2018. Additionally, I am self-employed as a software developer and designer.
-I like 🏸 badminton, 🏂 snowboarding, 🚴 cycling and 🏋 any other kind of sports. My fields of interest and expertise are:
+**Hi! 👋🏼** I am Philipp Matthes - computer scientist and [self made PhilippCoin billionaire](https://ropsten.etherscan.io/token/0x0ff809878aff65dc553b7be1b68e9851c49c3fb5?a=0xe66bA65d2e7c61df343D3Df7A28F94fcd8c06240). I am currently working on my diploma thesis in the field of machine learning on smartphones. Here are some of my interests and associated projects:
 
-- Applied Machine Learning and Artificial Intelligence
-- Blockchain and Crypto
-- Data Science and Statistics
-- Cloud Computing and Distributed Systems
-- Ubiquitous IOT Applications and Mobile Computing
-- Educational Software and Teaching
-
-# Weblinks
-
-- [Twitter](https://twitter.com/snrmtths)
-- [Instagram](https://instagram.com/snrmtths)
-- [Blog](https://xn--53hy230o.ws/)
-- [Homepage](https://philippmatth.es/)
-- [E-Learning](https://fragenautom.at/)
-
-# Featured Project
-
-The 3Dify iOS app uses algorithms from computer vision and machine learning to generate depth maps for photos. With these depth maps, it creates a unique 3-dimensional parallax effect with the parallax occlusion mapping shading technique.
-
-<a href="https://github.com/3dify-app">![3Dify-App](images/3dify-demo.gif)</a>
-
-The effect is achieved by two steps:
-
-1. Create a disparity map for the photo. On devices with multi camera arrays in portrait mode, the disparity map is provided by the AVCaptureDelegate. On devices without, the app makes use of CoreML to interpret the depth map using a custom pipeline.
-2. Use a Metal driven view to apply parallax occlusion mapping, using the calculated disparity map as depth. 
-
-On devices without the capability to create disparity maps (e.g. iPhone SE First Gen), the app makes use of a custom CoreML driven pipeline to create a disparity image:
-
-![pipeline](images/pipeline.webp)
-
-The pipeline takes the original image as input and creates three different depth estimations using the FCRN mlmodel, the FastDepth mlmodel and the Pydnet mlmodel. To evaluate which estimated depth map is of the best quality (for blending), the pipeline computes a specific rms error value for each depth map. This is done by applying a sobel image to both the depth map as well as the original image. Then, by measuring the distance between the sobel images, a RMS value can be computed. Based on the RMS value, the pipeline blends the depth maps together. To further smoothen the surfaces of the combined depth map while preserving edges, the pipeline applies a bilateral filter which takes the edge details from the original image and smoothes the combined depth map.
+- Ubiquitous applications → [Lautstärke-App](https://github.com/volume-app), [OUTPUT.DD-Apps](https://github.com/output-dd), [ordered.online-Apps](https://github.com/ordered-online), [Benno Netzwerk-Apps](https://github.com/benno-netzwerk), [Manni-App](https://github.com/manni-app)
+- Edge artificial intelligence → [3Dify-App](https://github.com/3dify-app), [Neural Greenscreen](https://github.com/PhilippMatthes/neural-greenscreen)
+- Blockchain development, consensus protocols and smart contract development → [Peerbridge Blockchain](https://github.com/peerbridge), [Peerbridge Messenger](https://github.com/peerbridge/peerbridge-ios), [PhilippCoin](https://github.com/PhilippMatthes/PhilippCoin)
+- Cloud computing and engineering web applications → [MDR Koalitionspoker](https://www.mdr.de/sachsen/politik/wahlen/landtagswahl/koalitionspoker-sachsen-erklaerung-100.html), [☕️💻.ws](https://github.com/coffee-code-ws), [philippmatth.es](https://philippmatth.es/), [ordered.online](https://github.com/ordered-online)
+- Educational software and teaching → [INLOOP](https://github.com/st-tu-dresden/inloop), [fragenautom.at](https://github.com/fragenautomat)
 
 # Profile Visits 📈
 
