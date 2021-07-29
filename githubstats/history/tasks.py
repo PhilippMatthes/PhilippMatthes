@@ -44,7 +44,7 @@ def update_history(old_chart):
     for data in n_visits_per_day:
         x.append(data['day'])
         y.append(data['count'])
-    plt.bar(x, y, color='#26de81')
+    plt.bar(x, y, color='#0072ff')
     fig.autofmt_xdate()
 
     buf = BytesIO()

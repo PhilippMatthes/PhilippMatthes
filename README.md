@@ -1,4 +1,12 @@
-[Homepage](https://philippmatth.es/) | [Twitter](https://twitter.com/snrmtths) | [Instagram](https://instagram.com/snrmtths) | [Blog](https://xn--53hy230o.ws/) | [E-Learning](https://fragenautom.at/)
+<p align="center">
+  <a href="https://philippmatth.es">
+    <img alt="header" src="./images/header.svg">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://philippmatth.es/">Homepage</a> | <a href="https://twitter.com/snrmtths">Twitter</a> | <a href="https://instagram.com/snrmtths">Instagram</a> | <a href="https://xn--53hy230o.ws/">Blog</a>
+</p>
 
 **Hi! 👋🏼** I am Philipp Matthes - computer scientist and [self made PhilippCoin billionaire](https://ropsten.etherscan.io/token/0x0ff809878aff65dc553b7be1b68e9851c49c3fb5?a=0xe66bA65d2e7c61df343D3Df7A28F94fcd8c06240). I am currently working on my diploma thesis in the field of machine learning on smartphones. Here are some of my interests and associated projects:
 
@@ -11,6 +19,8 @@
 ---
 
 #### Profile Visits 📈
+
+These statistics are generated in real time.
 
 <a href="https://github.com/PhilippMatthes/PhilippMatthes">
   <kbd>
