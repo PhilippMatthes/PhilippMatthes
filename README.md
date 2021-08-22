@@ -8,19 +8,31 @@
   <a href="https://philippmatth.es/">Homepage</a> | <a href="https://twitter.com/snrmtths">Twitter</a> | <a href="https://instagram.com/snrmtths">Instagram</a> | <a href="https://xn--53hy230o.ws/">Blog</a>
 </p>
 
-**Hi! 👋🏼** I am Philipp Matthes - computer scientist and [self made PhilippCoin billionaire](https://ropsten.etherscan.io/token/0x0ff809878aff65dc553b7be1b68e9851c49c3fb5?a=0xe66bA65d2e7c61df343D3Df7A28F94fcd8c06240). I am currently working on my diploma thesis in the field of machine learning on smartphones. Here are some of my interests and associated projects:
+<h3 align="center">
+  <strong>Hi! 👋🏼</strong> 
+</h3>
 
-- Ubiquitous applications → [Lautstärke-App](https://github.com/volume-app), [OUTPUT.DD-Apps](https://github.com/output-dd), [ordered.online-Apps](https://github.com/ordered-online), [Benno Netzwerk-Apps](https://github.com/benno-netzwerk), [Manni-App](https://github.com/manni-app)
-- Edge artificial intelligence → [3Dify-App](https://github.com/3dify-app), [Neural Greenscreen](https://github.com/PhilippMatthes/neural-greenscreen)
-- Blockchain development, consensus protocols and smart contract development → [Peerbridge Blockchain](https://github.com/peerbridge), [Peerbridge Messenger](https://github.com/peerbridge/peerbridge-ios), [PhilippCoin](https://github.com/PhilippMatthes/PhilippCoin)
-- Cloud computing and engineering web applications → [MDR Koalitionspoker](https://www.mdr.de/sachsen/politik/wahlen/landtagswahl/koalitionspoker-sachsen-erklaerung-100.html), [☕️💻.ws](https://github.com/coffee-code-ws), [philippmatth.es](https://philippmatth.es/), [ordered.online](https://github.com/ordered-online)
-- Educational software and teaching → [INLOOP](https://github.com/st-tu-dresden/inloop), [fragenautom.at](https://github.com/fragenautomat)
+<p align="center">
+  Feel free to explore the projects I have been working on. 
+</p>
 
----
+<p align="center">
+  You can scan this QR code if you'd like to contact me:
+</p>
 
-#### Profile Visits 📈
+<p align="center">
+  <img alt="contact" src="https://user-images.githubusercontent.com/27271818/130360610-e0b4e359-a505-4be7-addf-037345f08023.png">
+</p>
 
-These statistics are generated in real time.
+<hr>
+
+<h3 align="center">
+  Profile Visits 📈
+</h3>
+  
+<p align="center">
+  These statistics are generated in real time. <a href="https://github.com/PhilippMatthes/PhilippMatthes/blob/master/githubstats/history/tasks.py">Learn how</a>
+</p>
 
 <a href="https://github.com/PhilippMatthes/PhilippMatthes">
   <kbd>
