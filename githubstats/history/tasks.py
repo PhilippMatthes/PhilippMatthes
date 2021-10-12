@@ -50,7 +50,8 @@ def update_history(old_chart):
         .filter(date__gte=start_date, date__lte=visit.date) \
         .annotate(day=TruncDay('date')) \
         .values('day') \
-        .annotate(count=Count('pk'))
+        .annotate(count=Count('pk')) \
+        .order_by('day')
 
     df = pd.DataFrame(visits)
     mean = df['count'].mean()
@@ -83,8 +84,8 @@ def update_history(old_chart):
     ax2.xaxis.set_major_locator(loc)
     x = [d['day'] for d in visits]
     y = [d['count'] for d in visits]
-    ax2.step(x, y, color='#0072ff')
-    ax2.fill_between(x, 0, y, step='pre', color='#0072ff', alpha=0.2)
+    ax2.plot(x, y, color='#0072ff')
+    ax2.fill_between(x, 0, y, color='#0072ff', alpha=0.2)
     ax2.set_xlim(min(x) - timedelta(days=4.5), max(x) + timedelta(days=4.5))
     ax2.set_ylim(0, max(y))
     ax2.grid(True)
