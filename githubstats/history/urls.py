@@ -5,5 +5,5 @@ from . import views
 app_name = 'history'
 
 urlpatterns = [
-    path('chart/', views.ChartView.as_view(), name='chart'),
+    path('header/', views.HeaderView.as_view(), name='header'),
 ]

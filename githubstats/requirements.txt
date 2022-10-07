@@ -1,4 +1,1 @@
-Django==3.1.14
-matplotlib==3.3.2
-huey==2.3.0
-Pillow==9.0.0
+Django==4.1.2
