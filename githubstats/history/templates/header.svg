@@ -126,7 +126,7 @@
                 <g class="text caption">
                     <text x="50%" y="65%" dominant-baseline="middle"
                         text-anchor="middle" font-size="35px" fill="{{ gradient_stop_1 }}">
-                        <tspan x="50%" dy="0">Visitors in the last 7 Days</tspan>
+                        <tspan x="50%" dy="0">Last 30 Days - Max {{ max_visits }} per Day</tspan>
                     </text>
                 </g>
 

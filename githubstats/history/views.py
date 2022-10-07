@@ -16,14 +16,10 @@ from .models import Visit
 # A list of ui gradients to stylize the header image.
 # The gradients are taken from https://uigradients.com/
 ui_gradients = [
-    ('#4e54c8', '#8f94fb'),
-    ('#f12711', '#f5af19'),
-    ('#7F00FF', '#E100FF'),
-    ('#396afc', '#2948ff'),
-    ('#ff9966', '#ff5e62'),
-    ('#ee0979', '#ff6a00'),
-    ('#cb2d3e', '#ef473a'),
-    ('#e52d27', '#b31217'),
+    ('#00c6ff', '#0072ff'),
+    ('#1FA2FF', '#A6FFCB'),
+    ('#5433FF', '#A5FECB'),
+    ('#1CD8D2', '#93EDC7'),
 ]
 
 
@@ -85,11 +81,10 @@ class HeaderView(View):
         # Create a visit object in the database.
         visit = Visit.objects.create()
 
-        # For debugging: Create visits for the last 30 days.
         n_visits = ordinal(Visit.objects.count())
 
         # Get the visits, grouped by day for the last n days.
-        start_date = datetime.now() - timedelta(days=7)
+        start_date = datetime.now() - timedelta(days=30)
         visits = Visit.objects \
             .filter(date__gte=start_date, date__lte=visit.date) \
             .annotate(day=TruncDay('date')) \
@@ -109,8 +104,7 @@ class HeaderView(View):
         x_end = viewport_width - x_start
         x_step = (x_end - x_start) / (len(visits) - 1)
         y_min = viewport_height / 4
-        y_max = viewport_height - y_min
-        y_mid = viewport_height / 2
+        y_max = viewport_height / 2
         y_range = y_max - y_min
         # Scale the y axis to the range of the visits.
         max_visits = max([visit['count'] for visit in visits])
@@ -124,7 +118,7 @@ class HeaderView(View):
             # Scale y between y_max and y_min.
             y = y_max - (visit['count'] - min_visits) * y_scale
             points.append([x, y])
-        path = make_bezier_path(points, start_point=[x_start, y_mid], end_point=[x_end, y_mid])
+        path = make_bezier_path(points, start_point=[x_start, y_max], end_point=[x_end, y_max])
 
         # Draw an initial line graph which is used to animate the bezier line
         # graph. The initial line graph is a straight line from the left center
@@ -133,17 +127,18 @@ class HeaderView(View):
         initial_points = []
         for i in range(len(points)):
             x = x_start + i * x_step
-            initial_points.append([x, y_mid])
-        initial_path = make_bezier_path(initial_points, start_point=[x_start, y_mid], end_point=[x_end, y_mid])
+            initial_points.append([x, y_max])
+        initial_path = make_bezier_path(initial_points, start_point=[x_start, y_max], end_point=[x_end, y_max])
         
         # Generate dots for each visit.
         dots = ''
         for i, visit in enumerate(visits):
             x = x_start + i * x_step
             y = y_max - (visit['count'] - min_visits) * y_scale
-            dots += f'<circle class="dot" cx="{x}" cy="{y}" r="12" fill="{gradient_stop_2}" />'
+            dots += f'<circle class="dot" cx="{x}" cy="{y}" r="6" fill="{gradient_stop_1}" />'
         
         svg = render_to_string('header.svg', { 
+            'max_visits': max_visits,
             'initial_path': initial_path,
             'path': path,
             'dots': dots,
