@@ -1,3 +1,3 @@
 <a href="https://github.com/PhilippMatthes/PhilippMatthes">
-  <img align="center" src="https://snrmtths.uber.space/history/header/?cache=no" alt="visits" />
+  ![Philipp Matthes](header.svg)
 </a>
