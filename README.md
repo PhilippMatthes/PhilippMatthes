@@ -1,3 +1,3 @@
-See [github.com/PhilippMatthes/PhilippMatthes](github.com/PhilippMatthes/PhilippMatthes) if you want to use this header for your profile!
+See [https://github.com/PhilippMatthes/PhilippMatthes](https://github.com/PhilippMatthes/PhilippMatthes) to fork my header for your profile!
 
 ![Philipp Matthes](GitHubHeader.svg)
