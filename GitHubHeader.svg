@@ -160,8 +160,8 @@
             <stop offset="1" stop-color="white"/>
             </linearGradient>
             <radialGradient id="paint1_radial_1_10" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(230 197) rotate(21.8263) scale(427.656 753.204)">
-            <stop stop-color="#F1D1F3"/>
-            <stop offset="1" stop-color="white"/>
+            <stop stop-color="#00E0FF"/>
+            <stop offset="1" stop-color="#0094FF"/>
             </radialGradient>
             <linearGradient id="paint2_linear_1_10" x1="403.314" y1="52.9483" x2="461.822" y2="108.993" gradientUnits="userSpaceOnUse">
             <stop stop-color="white"/>
